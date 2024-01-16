@@ -533,7 +533,7 @@ footer .credit a {
 /* khusus untuk tampilan blog laporan kerja */
 .container1 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 1.5rem;
   margin-top: 4rem;
   font-size: 2rem;
@@ -587,7 +587,7 @@ footer .credit a {
 }
 .modal-content li {
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
   margin-top: 1.2rem;
   text-align: left;
 }
