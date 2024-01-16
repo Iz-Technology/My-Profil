@@ -258,11 +258,12 @@ section#gallery div {
 section#gallery div img {
   height: 15rem;
   gap: 1.5rem;
+  padding: 2rem;
 }
 
 section#gallery div img:hover {
   transition: all 0.2s ease-in-out;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 section.quote {
@@ -720,7 +721,7 @@ footer .credit a {
 
     section#gallery div img {
       height: 12rem;
-      padding: 0.5rem 1.1rem 0.5rem 1rem;
+      padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     }
 
     section#gallery div img:hover {
