@@ -751,6 +751,11 @@ footer .credit a {
       line-height: 3rem;
     }
 
+    .product-card .image img {
+      height: 12rem;
+      border-radius: 10px;
+    }
+
     /* KHUSUS UNTUK TAMPILAN MODAL MEDIAQUERY*/
     .modal-content .close {
       position: fixed;
