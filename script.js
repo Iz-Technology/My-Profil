@@ -146,3 +146,40 @@ function saveReviewToStorage(review) {
   reviews.unshift(review);
   localStorage.setItem("reviews", JSON.stringify(reviews));
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const mainImage = document.getElementById("mainImage");
+  const jumbotron = document.querySelector(".jumbotron");
+
+  const images = [
+    "images/n1.jpg",
+    "images/n3.jpg",
+    "images/n4.jpg",
+    "images/n5.jpg",
+  ];
+  let currentIndex = 0;
+
+  function changeImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    const nextImage = images[currentIndex];
+
+    const newImage = new Image();
+    newImage.src = nextImage;
+    newImage.classList.add("image-animation");
+
+    newImage.onload = function () {
+      mainImage.src = nextImage;
+      jumbotron.appendChild(newImage);
+      setTimeout(() => {
+        newImage.style.opacity = "1";
+        mainImage.style.opacity = "0";
+      }, 10);
+      setTimeout(() => {
+        jumbotron.removeChild(mainImage);
+        mainImage.style.opacity = "1";
+      }, 1010);
+    };
+  }
+
+  setInterval(changeImage, 3000); // Ganti gambar setiap 5 detik (5000 milidetik)
+});

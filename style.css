@@ -25,7 +25,7 @@ body {
 }
 
 nav {
-  z-index: 100;
+  z-index: 999;
   color: #fff;
   text-align: center;
   position: fixed;
@@ -88,28 +88,43 @@ nav ul li a:hover {
 }
 
 /* pengaturan header */
-
-header {
+.jumbotron {
   position: relative;
-  height: 100vh;
   width: 100%;
+  height: 100vh; /* Sesuaikan dengan kebutuhan Anda */
   overflow: hidden;
-  z-index: 2;
-  background-image: url(img/bg1.jpg);
 }
 
-header .intro {
-  z-index: 100;
+#mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  object-fit: cover;
+}
+
+header .jumbotron .intro {
+  z-index: 4;
   color: #fff;
   text-align: center;
   position: relative;
   top: 30%;
 }
 
-header .intro img {
+header .jumbotron .intro img {
   border-radius: 50%;
   width: 20%;
   object-position: center;
+  border: 5px solid #fff;
 }
 
 .tombol {
@@ -122,6 +137,7 @@ header .intro img {
   padding: 0px 20px 0px 20px;
   font-size: 15px;
   border-radius: 4px;
+  z-index: 4;
 }
 
 header .overlay {
@@ -132,7 +148,7 @@ header .overlay {
   width: 100%;
   background-color: #000;
   opacity: 50%;
-  z-index: -1;
+  z-index: 3;
 }
 
 .tombol-menu {
@@ -695,28 +711,18 @@ footer .credit a {
       height: 200px;
     }
 
-    header .intro {
-      z-index: 100;
+    header .jumbotron .intro {
+      z-index: 4;
       color: #fff;
       text-align: center;
       position: relative;
-      top: 35%;
+      top: 42%;
     }
 
-    header .intro img {
+    header .jumbotron .intro img {
       border-radius: 50%;
       width: 35%;
       object-position: center;
-    }
-
-    header {
-      position: relative;
-      height: 100vh;
-      width: 100%;
-      overflow: hidden;
-      z-index: 2;
-      background-image: url(img/bg1.jpg);
-      object-fit: cover;
     }
 
     section#gallery div img {
