@@ -714,6 +714,7 @@ footer .credit a {
 
     .jumbotron {
       position: relative;
+      max-width: 90%;
       overflow: hidden;
     }
 
@@ -722,6 +723,7 @@ footer .credit a {
     }
 
     header .jumbotron .intro {
+      max-width: 90%;
       z-index: 4;
       color: #fff;
       text-align: center;
