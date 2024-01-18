@@ -675,9 +675,6 @@ footer .credit a {
     .layar-dalam {
       width: 90%;
     }
-    .layar-penuh {
-      width: 90%;
-    }
     nav .menu ul {
       display: none;
       margin-top: 60px;
@@ -715,7 +712,7 @@ footer .credit a {
       height: 200px;
     }
 
-    .jumbotron {
+    /* .jumbotron {
       position: relative;
       overflow: hidden;
     }
@@ -736,8 +733,9 @@ footer .credit a {
       border-radius: 50%;
       width: 35%;
       object-position: center;
-    }
-    */ section#gallery div img {
+    } */
+
+    section#gallery div img {
       height: 12rem;
       padding-left: 1rem;
     }
