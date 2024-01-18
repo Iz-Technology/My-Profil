@@ -91,13 +91,13 @@ nav ul li a:hover {
 .jumbotron {
   position: relative;
   width: 100%;
-  height: 100vh; /* Sesuaikan dengan kebutuhan Anda */
+  height: 100vh;
   overflow: hidden;
 }
 
 #mainImage {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
 }
 
@@ -144,7 +144,7 @@ header .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-color: #000;
   opacity: 50%;
@@ -711,10 +711,10 @@ footer .credit a {
       height: 200px;
     }
 
-    /* .jumbotron {
+    .jumbotron {
       position: relative;
       width: 100%;
-      height: 100vh; /
+      height: 100vh;
       overflow: hidden;
     }
 
@@ -723,16 +723,15 @@ footer .credit a {
       color: #fff;
       text-align: center;
       position: relative;
-      top: 42%;
-    /* } */
+      top: 30%;
+    }
 
     header .jumbotron .intro img {
       border-radius: 50%;
       width: 35%;
       object-position: center;
     }
-
-    section#gallery div img {
+    */ section#gallery div img {
       height: 12rem;
       padding-left: 1rem;
     }
