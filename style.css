@@ -93,6 +93,7 @@ nav ul li a:hover {
   width: 100%;
   height: 100vh;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 #mainImage {
@@ -716,6 +717,12 @@ footer .credit a {
       width: 100%;
       height: 100vh;
       overflow: hidden;
+    }
+
+    #mainImage {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
     }
 
     header .jumbotron .intro {
