@@ -711,10 +711,10 @@ footer .credit a {
       height: 200px;
     }
 
-    .jumbotron {
+    /* .jumbotron {
       position: relative;
       width: 100%;
-      height: 100vh; /* Sesuaikan dengan kebutuhan Anda */
+      height: 100vh; /
       overflow: hidden;
     }
 
@@ -724,7 +724,7 @@ footer .credit a {
       text-align: center;
       position: relative;
       top: 42%;
-    }
+    /* } */
 
     header .jumbotron .intro img {
       border-radius: 50%;
