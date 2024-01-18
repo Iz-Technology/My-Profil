@@ -175,7 +175,7 @@ document.addEventListener("DOMContentLoaded", function () {
         mainImage.style.opacity = "0";
       }, 10);
       setTimeout(() => {
-        jumbotron.removeChild(mainImage);
+        jumbotron.appendChild(mainImage);
         mainImage.style.opacity = "1";
       }, 1010);
     };
