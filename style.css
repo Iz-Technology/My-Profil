@@ -715,13 +715,11 @@ footer .credit a {
     .jumbotron {
       position: relative;
       width: 100%;
-      height: 100vh;
       overflow: hidden;
     }
 
     #mainImage {
       width: 100%;
-      height: 100vh;
       object-fit: cover;
     }
 
