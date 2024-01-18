@@ -93,7 +93,6 @@ nav ul li a:hover {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  box-sizing: border-box;
 }
 
 #mainImage {
@@ -711,29 +710,6 @@ footer .credit a {
       border-radius: 5px 5px 0px 0px;
       height: 200px;
     }
-
-    /* .jumbotron {
-      position: relative;
-      overflow: hidden;
-    }
-
-    #mainImage {
-      object-fit: cover;
-    }
-
-    header .jumbotron .intro {
-      z-index: 4;
-      color: #fff;
-      text-align: center;
-      position: relative;
-      top: 30%;
-    }
-
-    header .jumbotron .intro img {
-      border-radius: 50%;
-      width: 35%;
-      object-position: center;
-    } */
 
     section#gallery div img {
       height: 12rem;
