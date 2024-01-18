@@ -711,6 +711,13 @@ footer .credit a {
       height: 200px;
     }
 
+    .jumbotron {
+      position: relative;
+      width: 100%;
+      height: 100vh; /* Sesuaikan dengan kebutuhan Anda */
+      overflow: hidden;
+    }
+
     header .jumbotron .intro {
       z-index: 4;
       color: #fff;
