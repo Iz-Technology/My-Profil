@@ -429,6 +429,10 @@ footer .credit a {
   border-radius: 10px;
 }
 
+.merek h3 {
+  line-height: 2.5rem;
+}
+
 .product-card .deskripsi {
   display: none;
 }
@@ -537,6 +541,7 @@ footer .credit a {
 
 .modal-content .harga {
   font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .modal-content .deskripsi .footer h6 {
